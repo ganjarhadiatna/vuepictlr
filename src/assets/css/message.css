@@ -1,0 +1,36 @@
+/*message*/
+.bottom-message {
+	position: fixed;
+	width: 600px;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+	background-color: rgba(0,0,0,0.94);
+	display: none;
+}
+.bottom-message .place-message {
+	display: grid;
+	grid-template-columns: 1fr 80px;
+}
+.bottom-message .place-message .msg-main {
+	grid-column: 1;
+
+	width: calc(100% - 30px);
+	padding: 0 15px;
+}
+.bottom-message .place-message .msg-main .ttl {
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	color: #fff;
+	font-size: 12pt;
+}
+.bottom-message .place-message .msg-side {
+	grid-column: 2;
+}
+.bottom-message .place-message .msg-side .btn {
+	border-radius: 0;
+	background-color: rgba(0,0,0,0);
+	color: #57b2f8;
+	padding: 0 0;
+}

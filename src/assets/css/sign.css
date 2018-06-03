@@ -1,0 +1,47 @@
+.frame-sign {
+	position: relative;
+	width: 500px;
+	margin: auto;
+	border: 1px rgba(0,0,0,0.1) solid;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+.frame-sign .top {
+	position: relative;
+	margin: auto;
+	width: 90%;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.frame-sign .top img {
+	width: 100%;
+}
+.frame-sign .mid .block {
+	width: 90%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+.frame-sign .mid .block h2 {
+	text-align: center;
+	color: rgba(0,0,0,0.54);
+}
+.frame-sign .mid .block p {
+	font-size: 14px;
+	color: rgba(0,0,0,0.54);
+}
+.frame-sign .mid .block .btn {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.frame-sign .mid .block a {
+	text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+	.frame-sign {
+		width: 95%;
+	}
+	.frame-sign .mid .block {
+		width: 100%;
+	}
+}

@@ -1,0 +1,159 @@
+.frame-profile {
+	margin: auto;
+}
+.frame-profile .profile {
+	display: grid;
+	grid-template-columns: 230px 1fr;
+}
+.frame-profile .profile .left {
+	grid-column: 1;
+	text-align: center;
+}
+.frame-profile .profile .main {
+	grid-column: 2;
+}
+.frame-profile .other .info {
+	color: rgba(0,0,0,0.54);
+	line-height: 1.5;
+	font-size: 14pt;
+}
+.frame-profile .add {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.frame-profile .add .lf {
+	margin-right: 10px;
+}
+.frame-profile .add .btn {
+	width: calc(50% - 10px);
+}
+
+/*menu user*/
+#editNav {
+	display: none;
+}
+
+.menu-user-edit {
+	position: relative;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.menu-user-popup {
+	position: fixed;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: 100%;
+	z-index: 200;
+	background-color: rgba(0,0,0,0.5);
+	overflow-y: auto;
+	display: none;
+}
+.menu-user {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.menu-user .place {
+	position: relative;
+	background-color: #fff;
+	overflow: hidden;
+	border-radius: 10px;
+	/*box-shadow: 0px 0px 20px rgba(0,0,0,0.2);*/
+}
+.menu-user-popup .menu-user .place .mid {
+	margin-top: 0px;
+}
+.menu-user .place .mid {
+	position: relative;
+	width: 100%;
+	margin: auto;
+	margin-top: 0px;
+	overflow: hidden;
+}
+.menu-user .place .mid .main {
+	position: relative;
+	width: 200%;
+	left: 0%;
+}
+.menu-user .place .mid .main .pl-left {
+	position: relative;
+	width: calc(50% - 30px);
+	padding: 0 15px;
+	float: left;
+}
+.menu-user .place .mid .main .pl-right {
+	position: relative;
+	width: calc(50% - 30px);
+	padding: 0 15px;
+	float: right;
+}
+.menu-user .place .mid .block {
+	color: #999;
+	margin-bottom: 10px;
+}
+.menu-user .place .mid .block.edit {
+	display: none;
+}
+.menu-user .place .mid .block h4 {
+	padding: 10px 0;
+	border-bottom: 1px #ededed solid;
+}
+.menu-user .place .mid .block ul {
+	font-size: 14px;
+}
+.menu-user .place .mid .block ul li label {
+	cursor: pointer;
+}
+.menu-user .place .mid .block ul li {
+	list-style: none;
+	padding: 15px 0;
+	border-bottom: 1px #ededed solid;
+	cursor: pointer;
+}
+
+.menu-user .place .mid .block ul li:hover {
+	color: #555;
+}
+.menu-user .place .mid .block ul li .icn {
+	float: right;
+	right: 0;
+	width: 30px;
+	text-align: center;
+}
+.menu-user .place .mid .block ul li .pa {
+	font-size: 25px;
+}
+.menu-user .place .mid .block ul li .sel {
+	color: #144753;
+}
+
+.menu-user .place .mid .edit ul li {
+	border-bottom: 0;
+	cursor: default;
+	height: 40px;
+}
+.menu-user .place .mid .edit ul li .icn-edit {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+	float: left;
+}
+.menu-user .place .mid .edit ul li .ttl-edit {
+	position: relative;
+	width: calc(100% - 40px);
+	float: left;
+}
+.menu-user .place .mid .edit ul li.space {
+	padding-bottom: 30px;
+}
+.menu-user .place .mid .edit ul li .txt {
+	width: 95%;
+	color: #555;
+}
+.menu-user .place .mid .edit .btn {
+	width: 100%;
+	margin: 15px 0px;
+}
